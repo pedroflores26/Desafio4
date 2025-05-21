@@ -1,0 +1,32 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofrinho Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cofre">
+        <h2>Cofrinho Digital</h2>
+        <p id="total">Total: R$ 0,00</p>
+        <p id="mensagem" class="mensagem"></p>
+        <div class="porco-container">
+            <img src="img/porco.jpg" alt="porco" class="porco">
+            <div id="moedas" class="moedas"></div>
+        </div>
+        <div class="botoes">
+            <button onclick="adicionar(0.10)">+ R$0,10</button>
+            <button onclick="adicionar(0.25)">+ R$0,25</button>
+            <button onclick="adicionar(0.50)">+ R$0,50</button>
+            <button onclick="adicionar(1.00)">+ R$1,00</button>
+            <input type="number" id="saque" placeholder="Valor do Saque" min="0" step="0.01">
+            <button onclick="sacar()">Sacar</button>
+            <button onclick="esvaziar()">Esvaziar Cofre</button>
+            <input type="number" id="deposito" placeholder="Valor para Depósito" min="0" step="0.01">
+            <button onclick="depositar()">Depositar</button>
+        </div>
+        <div id="quantidades" class="quantidades"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
