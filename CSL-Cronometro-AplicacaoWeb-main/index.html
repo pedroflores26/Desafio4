@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronomêtro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>POMODORO – CRONÔMETRO</h1>
+
+    <div class="container">
+        
+
+
+        <div class="tabs">
+            <div id="tab-pomodoro" class="tab active">Pomodoro</div>
+            <div id="tab-short" class="tab">Intervalo Curto</div>
+            <div id="tab-long" class="tab">Intervalo Longo</div>
+        </div>
+
+        <div class="timer__display">
+            <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+
+        <button id="start" class="timer__button">START</button>
+
+        <div class="timer__controls">
+            <button id="pause" class="timer__button">Pausar</button>
+            <button id="stop" class="timer__button">Terminar</button>
+            <button id="reset" class="timer__button">Reiniciar</button>
+            <input id="time" type="number" class="timer__input" value="25">
+            <button id="define" class="timer__button">Definir</button>
+            <div class="plus-minus-group">
+                <button id="plus">+</button>
+                <button id="minus">-</button>
+            </div>
+
+        </div>
+    </div>
+<iframe class="spotify-embed" style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO1g2DiU?utm_source=generator" width="100%"
+            height="380" frameborder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+        
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
