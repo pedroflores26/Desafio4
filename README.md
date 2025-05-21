@@ -84,9 +84,9 @@ Desenvolver um timer para estudo baseado na técnica Pomodoro (25 minutos de foc
 ### 🌟 Melhorias impostas
 
 - Aviso sonoro ao término do tempo  
-- Modo noturno com botão toggle  
 - Configuração personalizada do tempo de estudo e pausa  
-
+- Spotify imbutido
+- Intervalos de tempo
 ### 🛠️ Tecnologias
 
 - HTML  
@@ -110,9 +110,9 @@ Criar um teclado musical simples que emite sons ao pressionar teclas na tela ou 
 
 ### 🌟 Melhorias impostas
 
-- Teclas adicionais com oitavas extras  
 - Efeitos visuais animados ao tocar as notas  
-- Gravação e reprodução de sequências de notas  
+- Site Inspirado No Jogo Magic Tiles
+- 
 
 ### 🛠️ Tecnologias
 
@@ -125,4 +125,4 @@ Criar um teclado musical simples que emite sons ao pressionar teclas na tela ou 
 ## 📂 Como usar os projetos
 
 Clone o repositório com:
-git clone https://github.com/seuusuario/projetos-avaliativos.git
+git clone (https://github.com/pedroflores26/Desafio4)
