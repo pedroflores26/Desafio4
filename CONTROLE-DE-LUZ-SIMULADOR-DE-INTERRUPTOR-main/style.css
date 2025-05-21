@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+#room {
+  height: 100vh;
+  background-image: url('img/quarto-desligado.png');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#room.lit {
+  background-image: url('img/quarto-ligada.jpg');
+  color: black;
+}
+
+img {
+  width: 200px;
+  transition: opacity 0.3s;
+}
+
+.fade-out {
+  opacity: 0.3; /*animação fade in */ 
+}
+
+#lamp {
+  width: 120px;
+  transform: rotate(180deg); /* Gira a imagem */
+  position: absolute; /* Posiciona ela fora do fluxo normal */
+  top: 0%; /* Distância do topo da tela */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%) rotate(180deg); /* Ajusta para ficar centrado */
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
